@@ -1,0 +1,102 @@
+* {
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box; }
+
+#slash-data #exploreva-head {
+  padding-bottom: 15px; }
+  #slash-data #exploreva-head h1 {
+    margin-left: 72px; }
+#slash-data #exploreva-content {
+  background: url("http://www.va.gov/explore/images/header-shadow.png") repeat-x scroll 0px 0px transparent;
+  padding: 26px 0px 0px; }
+  #slash-data #exploreva-content .mainblock .intro {
+    text-align: center; }
+    #slash-data #exploreva-content .mainblock .intro p {
+      font-size: 24px;
+      line-height: 2.2em;
+      padding-left: 100px;
+      padding-right: 100px;
+      padding-bottom: 40px; }
+  #slash-data #exploreva-content .mainblock .button {
+    border: 1px solid #1082bf;
+    border-radius: 3px;
+    box-shadow: inset 0 1px 0 0 #7cc1e6;
+    color: white;
+    display: inline-block;
+    font-size: 11px;
+    font-weight: bold;
+    background-color: #33a6e3;
+    background-image: -webkit-gradient(linear, left top, left bottom, color-stop(0%, #33a6e3), color-stop(100%, #118ccd));
+    background-image: -webkit-linear-gradient(#33a6e3, #118ccd);
+    background-image: linear-gradient(#33a6e3, #118ccd);
+    padding: 7px 18px;
+    text-decoration: none;
+    text-shadow: 0 1px 0 #0977b2;
+    background-clip: padding-box;
+    font-size: 18px;
+    font-weight: 300; }
+    #slash-data #exploreva-content .mainblock .button:hover:not(:disabled) {
+      box-shadow: inset 0 1px 0 0 #51aedf;
+      cursor: pointer;
+      background-color: #249ad9;
+      background-image: -webkit-gradient(linear, left top, left bottom, color-stop(0%, #249ad9), color-stop(100%, #1182be));
+      background-image: -webkit-linear-gradient(#249ad9, #1182be);
+      background-image: linear-gradient(#249ad9, #1182be); }
+    #slash-data #exploreva-content .mainblock .button:active:not(:disabled) {
+      border: 1px solid #1082bf;
+      box-shadow: inset 0 0 8px 4px #1078af, inset 0 0 8px 4px #1078af, 0 1px 1px 0 #eeeeee; }
+    #slash-data #exploreva-content .mainblock .button:disabled {
+      opacity: 0.5;
+      cursor: not-allowed; }
+  #slash-data #exploreva-content .mainblock h3 {
+    color: #33A6E3;
+    font-family: Arial,Helvetica,sans-serif;
+    font-size: 18px;
+    font-weight: 700; }
+  #slash-data #exploreva-content .mainblock h2 {
+    font-size: 24px; }
+  #slash-data #exploreva-content .mainblock p {
+    color: #4D4D4D; }
+  #slash-data #exploreva-content .mainblock .triplets {
+    text-align: center; }
+  #slash-data #exploreva-content .mainblock .triplet {
+    width: 33%;
+    display: inline-block;
+    vertical-align: top; }
+    #slash-data #exploreva-content .mainblock .triplet p {
+      padding: 20px; }
+    #slash-data #exploreva-content .mainblock .triplet a:hover {
+      color: #33A6E3; }
+  #slash-data #exploreva-content .mainblock .section p {
+    padding: 20px 60px;
+    font-size: 18px;
+    text-align: center; }
+  #slash-data #exploreva-content .mainblock .data-link {
+    font-size: 18px;
+    font-weight: 700;
+    text-align: center; }
+    #slash-data #exploreva-content .mainblock .data-link a {
+      color: #33A6E3; }
+  #slash-data #exploreva-content .mainblock #feedback {
+    border-top: 5px solid #ca122f;
+    background: #EAEAEC;
+    padding: 4em 80px;
+    text-align: center;
+    margin: 80px 60px; }
+    #slash-data #exploreva-content .mainblock #feedback p {
+      padding: 0px; }
+    #slash-data #exploreva-content .mainblock #feedback .button {
+      margin-top: 20px; }
+  #slash-data #exploreva-content .mainblock .divider {
+    width: 100%;
+    height: 1px;
+    background-color: #4D4D4D;
+    text-align: center;
+    margin-top: 80px;
+    margin-bottom: 40px; }
+    #slash-data #exploreva-content .mainblock .divider .text {
+      background-color: white;
+      position: relative;
+      top: -0.9em;
+      padding: 0px 30px; }
