@@ -4359,7 +4359,7 @@
         "programCode": ["019:000"],
         "accessURL": "http://www.osti.gov/accomplishments/newsfeeds/rss.xml",
         "format": "application/rss+xml",
-        "theme": ["energy"],
+        "theme": ["energy"]
     },
     {
         "title": "DOE R&D Accomplishments XML Data Service",
@@ -4400,7 +4400,7 @@
         "accessURL": "http://www.osti.gov/cgi-bin/rd_accomplishments/xml.cgi",
         "format": "text/xml",
         "dataDictionary": "http://www.osti.gov/accomplishments/AccXMLmanual.pdf",
-        "theme": ["energy"],
+        "theme": ["energy"]
     },
     {
         "title": "E-Print Network",
@@ -7373,7 +7373,7 @@
         "accessLevel": "non-public",
         "accessLevelComment": "Department level financial information",
         "bureauCode": ["019:60"],
-        "programCode": ["019:053"],
+        "programCode": ["019:053"]
     },
     {
         "title": "STRIPES",
