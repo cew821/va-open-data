@@ -3994,7 +3994,7 @@
         "format": "text/html",
         "spatial": "United States",
         "temporal": "1996/2011",
-        "accrualPeriodicity": "weekly",
+        "accrualPeriodicity": "Weekly",
         "theme": ["energy"],
         "landingPage": "https://www.directives.doe.gov/directives"
     },
@@ -4267,8 +4267,7 @@
         "programCode": ["019:000"],
         "accessURL": "http://www.osti.gov/includes/doepatents/patents.xml",
         "format": "application/rss+xml",
-        "theme": ["energy"],
-        "landingPage": ""
+        "theme": ["energy"]
     },
     {
         "title": "DOE R&D Accomplishments ",
@@ -4361,7 +4360,6 @@
         "accessURL": "http://www.osti.gov/accomplishments/newsfeeds/rss.xml",
         "format": "application/rss+xml",
         "theme": ["energy"],
-        "landingPage": ""
     },
     {
         "title": "DOE R&D Accomplishments XML Data Service",
@@ -4403,7 +4401,6 @@
         "format": "text/xml",
         "dataDictionary": "http://www.osti.gov/accomplishments/AccXMLmanual.pdf",
         "theme": ["energy"],
-        "landingPage": ""
     },
     {
         "title": "E-Print Network",
@@ -5342,7 +5339,7 @@
         "format": "text/html",
         "spatial": "United States",
         "temporal": "2007-05-08/2011-03-17",
-        "accrualPeriodicity": "monthly",
+        "accrualPeriodicity": "Monthly",
         "dataDictionary": "http://www.nnsa.energy.gov/aboutus/ourprograms/administration/policysystem",
         "theme": ["energy"],
         "references": "http://www.nnsa.energy.gov/aboutus/ourprograms/administration/policysystem",
@@ -6406,7 +6403,7 @@
         "format": "application/vnd.ms-excel",
         "spatial": "United States",
         "temporal": "1973/2013",
-        "dataDictionary": "http://www.eia.gov/survey/form/eia_757/instructions.pdf; http://www.eia.gov/survey/form/eia_910/instructions.pdf; ",
+        "dataDictionary": "http://www.eia.gov/survey/form/eia_757/instructions.pdf",
         "theme": ["energy"],
         "references": "http://www.eia.gov/dnav/ng/TblDefs/ng_pri_sum_tbldef2.asp"
     },
@@ -7370,12 +7367,12 @@
             {
                 "identifier": "e6821829-c680-4fd6-86e1-daffcecbc0cd",
                 "accessURL": "https://openpv.nrel.gov/search",
-                "format": "HTML"
+                "format": "text/html"
             },
             {
                 "identifier": "5d495833-b0da-4188-8124-f0581a7a8db7",
                 "accessURL": "https://openpv.nrel.gov/api.php",
-                "format": "HTML"
+                "format": "text/html"
             }
         ]
     },
@@ -7401,7 +7398,7 @@
         "bureauCode": ["019:20"],
         "programCode": ["019:003"],
         "accessURL": "http://www.fueleconomy.gov/feg/epadata/vehicles.csv.zip",
-        "format": "CSV",
+        "format": "text/csv",
         "license": "License Not Specified",
         "temporal": "1984/2013",
         "accrualPeriodicity": "Annual",
@@ -7411,12 +7408,12 @@
             {
                 "identifier": "0828f1d5-e5fd-4eef-9c86-252390d94750",
                 "accessURL": "http://www.fueleconomy.gov/feg/download.shtml",
-                "format": "HTML"
+                "format": "text/html"
             },
             {
                 "identifier": "cdf81a6d-faca-451b-a0b1-4282f05e7007",
                 "accessURL": "http://www.fueleconomy.gov/feg/epadata/vehicles.csv.zip",
-                "format": "CSV"
+                "format": "text/csv"
             },
             {
                 "identifier": "69f0ec5d-2cfd-44a4-8f53-02533fa65fe4",
@@ -7431,7 +7428,7 @@
             {
                 "identifier": "8df636e7-cfe6-4cde-b0e3-ff0588610661",
                 "accessURL": "http://www.fueleconomy.gov/feg/ws/index.shtml",
-                "format": "HTML"
+                "format": "text/html"
             }
         ]
     },
@@ -7496,7 +7493,7 @@
         "bureauCode": ["019:20"],
         "programCode": ["019:053"],
         "accessURL": "http://en.openei.org/apps/TCDB/sites/all/files/tcdb-data/generation.csv",
-        "format": "CSV",
+        "format": "text/csv",
         "license": "License Not Specified",
         "dataQuality": true,
         "landingPage": "http://en.openei.org/apps/TCDB/",
@@ -7504,22 +7501,22 @@
             {
                 "identifier": "befc00f2-2004-43b6-8330-7a8bf393f185",
                 "accessURL": "http://en.openei.org/apps/TCDB/sites/all/files/tcdb-data/generation.csv",
-                "format": "CSV"
+                "format": "text/csv"
             },
             {
                 "identifier": "43a130d6-a400-4e33-82f2-0bdccd1d3817",
                 "accessURL": "http://en.openei.org/apps/TCDB/sites/all/files/tcdb-data/generation.csv",
-                "format": "CSV"
+                "format": "text/csv"
             },
             {
                 "identifier": "63c18846-ed0a-475d-81c3-7ce7cc6d6067",
                 "accessURL": "http://en.openei.org/apps/TCDB/sites/all/files/tcdb-data/fuels.csv",
-                "format": "CSV"
+                "format": "text/csv"
             },
             {
                 "identifier": "f5e8bbdc-dbab-49b9-8a16-ffbf82f90340",
                 "accessURL": "http://en.openei.org/apps/TCDB/sites/all/files/tcdb-data/vehicles.csv",
-                "format": "CSV"
+                "format": "text/csv"
             }
         ]
     },
@@ -7544,15 +7541,15 @@
         "bureauCode": ["019:20"],
         "programCode": ["019:005"],
         "accessURL": "http://en.openei.org/wiki/Special:Ask/-5B-5BCategory:Companies-5D-5D-5B-5BSector::Biofuels-5D-5D/-3F%3DCompany-20Name-23/-3FAddress/-3FPlace/-3FZip/-3FSector/-3FProduct/-3FWebsite/-3FRegion/format%3Dcsv/limit%3D4500/offset%3D0/mainlabel%3DCompany-20Name/searchlabel%3DDownload-20CSV-20(rows-201-2D253)/default%3DNo-20companies-20available",
-        "format": "CSV",
+        "format": "text/csv",
         "license": "License Not Specified",
         "dataQuality": true,
-        "landingPage": "en.openei.org/wiki/List_of_Companies_in_Biofuels_Sector",
+        "landingPage": "http://en.openei.org/wiki/List_of_Companies_in_Biofuels_Sector",
         "distribution": [
             {
                 "identifier": "0f7f347d-1d47-413d-a577-4d41cc7137db",
                 "accessURL": "http://en.openei.org/wiki/Special:Ask/-5B-5BCategory:Companies-5D-5D-5B-5BSector::Biofuels-5D-5D/-3F%3DCompany-20Name-23/-3FAddress/-3FPlace/-3FZip/-3FSector/-3FProduct/-3FWebsite/-3FRegion/format%3Dcsv/limit%3D4500/offset%3D0/mainlabel%3DCompany-20Name/searchlabel%3DDownload-20CSV-20(rows-201-2D253)/default%3DNo-20companies-20available",
-                "format": "CSV"
+                "format": "text/csv"
             }
         ]
     },
@@ -7634,7 +7631,7 @@
             {
                 "identifier": "860420e1-4d55-482c-971b-67ea75b7003d",
                 "accessURL": "https://bpd.lbl.gov/",
-                "format": "HTML"
+                "format": "text/html"
             }
         ]
     },
@@ -7664,7 +7661,7 @@
             {
                 "identifier": "a8614de4-7454-4d62-a678-0debd5352dfa",
                 "accessURL": "http://www.regulations.doe.gov/certification-data/",
-                "format": "HTML"
+                "format": "text/html"
             }
         ]
     },
@@ -7700,7 +7697,7 @@
             {
                 "identifier": "a62505b3-a49e-496f-8b58-f24c763beb73",
                 "accessURL": "http://www.afdc.energy.gov/data_download/",
-                "format": "HTML"
+                "format": "text/html"
             },
             {
                 "identifier": "19ce21ce-239c-4d34-8e87-a044e72292de",
@@ -7740,32 +7737,32 @@
             {
                 "identifier": "84fe6363-01ef-443b-8b05-d7b0783d4287",
                 "accessURL": "http://feedstockreview.ornl.gov/pdf/billion_ton_vision.pdf",
-                "format": "PDF"
+                "format": "application/pdf"
             },
             {
                 "identifier": "10ab35db-fc1f-40af-9d00-6698c4fa9dc1",
                 "accessURL": "http://www1.eere.energy.gov/biomass/pdfs/billion_ton_update.pdf",
-                "format": "PDF"
+                "format": "application/pdf"
             },
             {
                 "identifier": "1a08b6f8-dddb-4b09-b8a4-40f27ab53fd9",
                 "accessURL": "https://bioenergykdf.net/system/files/private/BillionTonUpdate/BillionTonUpdateEnergyFeedstocks.zip",
-                "format": "ZIP"
+                "format": "application/zip"
             },
             {
                 "identifier": "308da43b-9f83-407d-9046-187a1f650ea8",
                 "accessURL": "https://bioenergykdf.net/system/files/private/BillionTonUpdate/BillionTonUpdateConventionalCrops.zip",
-                "format": "ZIP"
+                "format": "application/zip"
             },
             {
                 "identifier": "fb30224e-ab82-4adc-9363-ea6ed0107c35",
                 "accessURL": "https://bioenergykdf.net/system/files/private/BillionTonUpdate/BillionTonUpdateForestResources.zip",
-                "format": "ZIP"
+                "format": "application/zip"
             },
             {
                 "identifier": "95356f39-f7c1-47ce-a7e5-b9f4eaeca263",
                 "accessURL": "https://bioenergykdf.net/system/files/private/BillionTonUpdate/BillionTonUpdateSecondaryResources.zip",
-                "format": "ZIP"
+                "format": "application/zip"
             },
             {
                 "identifier": "b5b6910a-ab9c-4a99-89bc-aeba2155d453",
@@ -7797,7 +7794,7 @@
             {
                 "identifier": "1160386c-8a7f-49e9-b905-1a910fd2ca1e",
                 "accessURL": "http://www.eea-inc.com/chpdata/index.html",
-                "format": "HTML"
+                "format": "text/html"
             }
         ]
     },
@@ -7822,7 +7819,7 @@
         "bureauCode": ["019:20"],
         "programCode": ["019:001"],
         "accessURL": "http://iac.rutgers.edu/download_db/IAC_Database.zip",
-        "format": "ZIP",
+        "format": "application/zip",
         "license": "License Not Specified",
         "dataQuality": true,
         "landingPage": "http://iac.rutgers.edu/database/",
@@ -7830,7 +7827,7 @@
             {
                 "identifier": "ef14dcd9-63c5-4828-861a-fc7d8d2b61de",
                 "accessURL": "http://iac.rutgers.edu/download_db/IAC_Database.zip",
-                "format": "ZIP"
+                "format": "application/zip"
             }
         ]
     },
@@ -7852,29 +7849,29 @@
         "accessLevel": "restricted public",
         "dataDictionary": "http://www.nrel.gov/vehiclesandfuels/transportationdata/docs/caltrans_data_dictionary.doc",
         "accessURL": "http://www.nrel.gov/vehiclesandfuels/transportationdata/downloads/california/caltrans_original.zip",
-        "format": "ZIP",
+        "format": "application/zip",
         "license": "Other (Attribution)",
         "spatial": "California",
         "temporal": "2010-01-01/2012-12-31",
         "issued": "2013-06-14",
         "dataQuality": true,
         "landingPage": "http://www.nrel.gov/vehiclesandfuels/secure_transportation_data.html",
-        "relatedDocuments": "http://www.nrel.gov/vehiclesandfuels/transportationdata/pdfs/calif_household_travel_survey.pdf,http://www.nrel.gov/vehiclesandfuels/transportationdata/pdfs/appendix_calif_household_travel_survey.pdf",
+        "relatedDocuments": ["http://www.nrel.gov/vehiclesandfuels/transportationdata/pdfs/calif_household_travel_survey.pdf","http://www.nrel.gov/vehiclesandfuels/transportationdata/pdfs/appendix_calif_household_travel_survey.pdf"],
         "distribution": [
             {
                 "identifier": "e46bd1cb-d12d-441a-9a83-8dd6ab077af9",
                 "accessURL": "http://www.nrel.gov/vehiclesandfuels/transportationdata/downloads/california/caltrans_original.zip",
-                "format": "ZIP"
+                "format": "application/zip"
             },
             {
                 "identifier": "7865a790-e2f3-468b-9b1d-b1d5aed6d915",
                 "accessURL": "http://www.nrel.gov/vehiclesandfuels/transportationdata/downloads/california/caltrans_processed_data.zip",
-                "format": "ZIP"
+                "format": "application/zip"
             },
             {
                 "identifier": "968f1765-a852-413a-b5f7-9ecc0793ff9f",
                 "accessURL": "http://www.nrel.gov/vehiclesandfuels/transportationdata/downloads/california/caltrans_processed_by_vehicle_data.zip",
-                "format": "ZIP"
+                "format": "application/zip"
             }
         ]
     },
@@ -7894,7 +7891,7 @@
         "organization": "Department of Energy",
         "contactPoint": "Christopher Tremper",
         "mbox": "chris.tremper@ee.doe.gov",
-        "identifier": "DOE-5163",
+        "identifier": "DOE-516312",
         "accessLevel": "public",
         "bureauCode": ["019:20"],
         "license": "License Not Specified",
