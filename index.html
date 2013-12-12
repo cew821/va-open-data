@@ -390,9 +390,12 @@ window.onload = function(){
 					<div class="mainblock">
 						<div class="intro">
 							<p>Welcome to the VA’s home of open data and APIs. Here you will find data, APIs, tools and resources that can be used to develop web and mobile applications, design data visualizations, and create stories directly from VA resources.</p>
-							<a class="button" href="#" alt="Find Data">
+							<a class="button" href="http://catalog.data.gov/dataset?q=organization:va-gov+OR+organization:vba-va-gov+OR+organization:nca-va-gov+OR+organization:vha-va-gov" alt="Find Data" target="_blank">
 								Find data &rarr;
 							</a>
+              <div class="small-explain">
+                You will be taken to data.gov
+              </div>
 						</div>
 
 						<div class="divider">
@@ -401,24 +404,33 @@ window.onload = function(){
 
 						<div class="triplets">
 							<div class="triplet">
-								<a href="#" title="Link to Facility Locations">
                 <img src="images/VAopendata-feature1.png" alt="Facility Locations">
-								<h3>VA Facilities Locations</h3></a>
-								<p>A description of all county, state and federal VA facilities nationwide, including VA Medical Centers, Mobile Clinics, and Regional Offices.</p>
+								<h3>VA Facilities Locations</h3>
+								<p>A description of all county, state and federal VA facilities nationwide, including VA Medical Centers, Mobile Clinics, and Regional Offices.<br><br></p>
+                <a href="https://raw.github.com/va-data/va-facilities/master/facilities.json" title="Link to Download Facility Locations" download="facilities.json" class="download">Get this data &darr;</a>
+                <div class="small-explain">
+                  File type: JSON
+                </div>
 							</div>
 
 							<div class="triplet">
-								<a href="#" title="Link to Services for Homeless Vets Locations">
                 <img src="images/VAopendata-feature2.png" alt="Services for Homeless Vets Locations">
-								<h3>Homeless Resources</h3></a>
-								<p>A nationwide list of services for Homeless Vets including health care, mental health, job assistance, education, housing, and other benefits.</p>
+								<h3>Homeless Resources</h3>
+								<p>A nationwide list of services for Homeless Vets including health care, mental health, job assistance, education, housing, and other benefits.<br><br></p>
+                <a href="https://raw.github.com/va-data/va-resources/master/homeless-assistance.json" title="Link to Download Services for Homeless Vets Locations Data" download="homeless-assistance.json" class="download">Get this data &darr;</a>
+                <div class="small-explain">
+                  File type: JSON
+                </div>
 							</div>
 
 							<div class="triplet">
-								<a href="#" title="Link to Family Caregiver Services">
                 <img src="images/VAopendata-feature3.png" alt="Caregiver Resources">
-								<h3>Family Caregiver Services</h3></a>
-								<p>A list of all benefits, services and resources available to family caregivers of veterans, including specific forms of compensation, support networks, and legal resources.</p>
+								<h3>Family Caregiver Services</h3>
+								<p>A list of benefits, services and resources for family caregivers of veterans, including specific forms of compensation, support networks, and legal resources.</p>
+                <a href="https://raw.github.com/va-data/va-resources/master/family-caregiver-support.json" title="Link to Download Family Caregiver Services Data" download="family-caregiver-services.json" class="download">Get this data &darr;</a>
+                <div class="small-explain">
+                  File type: JSON
+                </div>
 							</div>
 						</div>
 
@@ -434,7 +446,7 @@ window.onload = function(){
 							<p>So go on, explore some of our public data--innovate, create, and make sure to give us your feedback.</p>
 
 							<div class="data-link">
-								<a href="#" title="Link to VA's Open Data">Explore VA's Open Data &rarr;</a>
+								<a href="http://catalog.data.gov/dataset?q=organization:va-gov+OR+organization:vba-va-gov+OR+organization:nca-va-gov+OR+organization:vha-va-gov" title="Link to VA's Open Data">Explore VA's Open Data &rarr;</a>
 							</div>
 
 						</div>
@@ -443,7 +455,7 @@ window.onload = function(){
 							<img src="images/VAopendata-feedback.png" alt="Feedback">
 							<h2>What do you think?</h2>
 							<p>Is there a dataset you would like to see us share? Noticed an error? Have a questions on how to use VA data? We want to hear your ideas.  Contribute your feedback to help improve open data at the VA.</p>
-							<a class="button" href="#" alt="Share Your Feedback">
+							<a class="button" href="https://github.com/department-of-veterans-affairs/va-data/issues" title="Share Your Feedback">
 								Share Your Feedback
 							</a>
 						</div>

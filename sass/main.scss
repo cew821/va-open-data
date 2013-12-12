@@ -1,14 +1,14 @@
 @import "bourbon/bourbon";
 @import "neat/neat";
 
+$emphasis-blue: #33A6E3;
+
 #slash-data {
 
 	#exploreva-head {
 		padding-bottom: 15px;
 		h1 {
-			// text-align: left;
 			margin-left: 72px;
-			// background: red;
 		}
 	}
 
@@ -29,6 +29,21 @@
 					padding-bottom: 40px;
 				}
 			}
+
+			.small-explain {
+				color: $emphasis-blue;
+				font-size: 10px;
+				margin: 10px;
+			}
+
+			.download {
+				@include button(simple, #33A6E3);
+				font-size: 12px;
+				a:hover {
+					color: white;
+				}
+			}
+
 
 			.button {
 				@include button(simple, #33A6E3);
